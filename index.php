@@ -9,6 +9,7 @@
             // 2. menambahkan properti peta
             function initialize() {
                 var properti_peta = {
+                    center: new google.maps.LatLng(-7.9824227,112.6306754),
                     zoom: 8,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
